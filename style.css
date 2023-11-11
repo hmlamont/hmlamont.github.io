@@ -7,19 +7,26 @@
 .site-heading {
     background-color: #A49694;
     color: #4B4237;
-    text-align: center;
-    padding: 25px 0;
+    padding: 25px;
 }
 
 .site-heading nav {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
     font-family: 'Fira Sans';
 }
 .site-heading a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.name {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    font-family: 'Fira Sans';
 }
 
 .image {
@@ -35,7 +42,7 @@
 }
 
 .background-intro {
-    background-image: url(Assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    background-image: url(assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
     height: 90vh;
     width: 100vw;
     display: flex;
