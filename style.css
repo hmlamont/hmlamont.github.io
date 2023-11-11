@@ -1,0 +1,49 @@
+/* RESET RULE */
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+.site-heading {
+    background-color: #A49694;
+    color: #4B4237;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.site-heading nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fira Sans';
+}
+.site-heading a {
+    text-decoration: none;
+    color: inherit
+}
+
+.image {
+    height: 70vh;
+    width: 25vw;
+    margin-top: 60px;
+}
+
+.introduction {
+    margin-top: 150px;
+    flex-wrap: wrap;
+    font-size: 50px;
+}
+
+.background-intro {
+    background-image: url(Assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tagline {
+    margin-top: 20px;
+    font-size: 24px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.form {
+    text-align: center;
+}
+#fname {
+    height:30px;
+    font-size:18pt;
+}
+#lname {
+    height:30px;
+    font-size:18pt;
+}
+#email {
+    height:30px;
+    font-size:18pt; 
+}
+#message {
+    height:200px;
+    font-size:18pt;
+}
+.text {
+    text-align: center;
+}
