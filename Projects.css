@@ -9,3 +9,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     color: #4b4237;
 }
+.name {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,7 @@
+.name {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+}

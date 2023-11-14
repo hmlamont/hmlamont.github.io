@@ -14,31 +14,44 @@
     margin-top: 10px;
     display: flex;
     font-family: 'Fira Sans';
+    justify-content: flex-end;
 }
 .site-heading a {
     text-decoration: none;
     color: inherit;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+}
+
+.site-heading a:hover {
+    font-size: 20px;
+}
+
+.hr {
+    background-color: #4B4237;
+    height: 3px;
 }
 .name {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 200px;
-    font-family: 'Fira Sans';
+    justify-content: flex-start;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .image {
     height: 70vh;
     width: 25vw;
     margin-top: 60px;
+    border: #D5A021 solid 3px;
 }
 
 .introduction {
     margin-top: 150px;
     flex-wrap: wrap;
     font-size: 50px;
+    font-family: 'Lato';
 }
 
 .background-intro {
