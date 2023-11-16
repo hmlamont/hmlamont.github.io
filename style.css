@@ -19,9 +19,7 @@
 .site-heading a {
     text-decoration: none;
     color: inherit;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
+    padding: 20px 50px;
 }
 
 .site-heading a:hover {
@@ -34,36 +32,63 @@
 }
 .name {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-left: 100px;
-    width: 150px;
-    height: 150px;
+    align-items: center;
 }
 
 .image {
     height: 70vh;
-    width: 25vw;
-    margin-top: 60px;
+    margin-left: 100px;
+    
     border: #D5A021 solid 3px;
 }
 
 .introduction {
-    margin-top: 150px;
-    flex-wrap: wrap;
-    font-size: 50px;
+    padding-top: 120px;
+    font-size: 55px;
     font-family: 'Lato';
 }
 
 .background-intro {
     background-image: url(assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
     height: 90vh;
-    width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 60px;
 }
 
 .tagline {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 28px;
     flex-wrap: wrap;
+}
+.skills {
+    font-family: 'Fira Sans';
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #4B4237;
+    background-color: #D5A021;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 200px;
+    row-gap: 10px;
+    background-image: url(assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+}
+.row {
+    padding: 0px 20px;
+    margin-left: 250px;
+    margin-top: 30px;
+    text-align: center;
+}
+.skills-image {
+    height: 30vh;
+    width: 12vw;
+}
+.p {
+    /* display: flex; */
+    /* justify-content: space-between; */
 }

@@ -5,3 +5,17 @@
     width: 150px;
     height: 150px;
 }
+.list {
+    font-family: 'Lato';
+    background-image: url(assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    color: #4B4237;
+}
+.paragraph {
+   text-align: center;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+.h1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
