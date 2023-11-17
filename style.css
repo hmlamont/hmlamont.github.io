@@ -72,23 +72,43 @@
     background-color: #D5A021;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    column-gap: 200px;
-    row-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* column-gap: 200px; */
+    /* row-gap: 10px; */
     background-image: url(assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
 }
 .row {
     padding: 0px 20px;
-    margin-left: 250px;
+    /* margin-left: 200px; */
     margin-top: 30px;
-    text-align: center;
 }
 .skills-image {
     height: 30vh;
-    width: 12vw;
+    /* width: 12vw; */
 }
 .p {
-    /* display: flex; */
-    /* justify-content: space-between; */
+    text-align: center;
+    font-family: 'Fira Sans';
+}
+.contact-me {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 40px;
+    margin-left: 80px;
+    color: #736B60
+}
+.button {
+    background-color: #A49694;
+    font-size: 30px;
+    color: #4B4237;
+    padding: 30px 30px;
+    border-radius: 45%;
+    font-family: 'Fira Sans';
+    text-decoration: none;
+    border: #A49694;
+}
+.button:hover {
+    font-size: 35px;
 }

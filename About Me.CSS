@@ -1,9 +1,8 @@
 .name {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: space-between;
     margin-left: 100px;
-    width: 150px;
-    height: 150px;
+    align-items: center;
 }
 .list {
     font-family: 'Lato';
@@ -18,4 +17,5 @@
 .h1 {
     font-size: 40px;
     margin-left: 20px;
+    margin-top: 50px;
 }
